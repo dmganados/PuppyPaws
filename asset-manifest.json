@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PuppyPaws/static/css/main.cf57aabd.css",
+    "main.js": "/PuppyPaws/static/js/main.c5059fe4.js",
+    "static/media/nike_running_shoes.jpg": "/PuppyPaws/static/media/nike_running_shoes.e515f845e377c38c4c93.jpg",
+    "index.html": "/PuppyPaws/index.html",
+    "main.cf57aabd.css.map": "/PuppyPaws/static/css/main.cf57aabd.css.map",
+    "main.c5059fe4.js.map": "/PuppyPaws/static/js/main.c5059fe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf57aabd.css",
+    "static/js/main.c5059fe4.js"
+  ]
+}
