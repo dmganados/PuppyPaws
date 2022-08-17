@@ -1,4 +1,4 @@
-import { Navbar, Nav, Container, Dropdown } from 'react-bootstrap';
+import { Navbar, Container, Dropdown } from 'react-bootstrap';
 
 export default function UserNavBar() {
 	

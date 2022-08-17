@@ -1,12 +1,7 @@
-import {Card, Row, Col, Container, Button} from 'react-bootstrap';
-import shoes from './banner/nike_running_shoes.jpg';
-import { Link } from 'react-router-dom';
-
-
+import { Card, Col, Button } from 'react-bootstrap';
 
 export default function ProductCard({productProp}) {
-	let id = productProp._id;
-	let specific = {id};
+	let id = productProp._id;	
 	let image = productProp.productImg;
 
 	return(

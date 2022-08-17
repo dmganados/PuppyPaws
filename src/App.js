@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import AppNavBar from './components/AppNavBar';
-import UserNavBar from './components/UserNavBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
@@ -13,7 +12,7 @@ import ProductInfo from './pages/ProductInfo';
 import Cart from './pages/Cart'
 import Profile from './pages/Profile'
 import { UserProvider } from './UserContext'
-import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 import './App.css';
@@ -24,20 +23,8 @@ function App() {
     isAdmin: null
   });
 
-  const unsetUser = () => {
-    localStorage.clear();
-    setUser({
-      id: null,
-      isAdmin: null
-    })
-  }
-
   useEffect(() => {
-    // console.log(user);
-
     let token = localStorage.getItem('accessToken');
-    // console.log(token);
-
     fetch('https://limitless-brushlands-90925.herokuapp.com/users/users', {
       headers: {
         Authorization: `Bearer ${token}`
@@ -63,8 +50,7 @@ function App() {
   return (
     
       <UserProvider value={{user, setUser}} >
-      <Router>
-        {/*// <UserNavBar />*/}
+      <Router>        
         <AppNavBar />
           <Routes>          
             <Route path='/' element={<Home />} />

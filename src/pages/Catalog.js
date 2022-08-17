@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import ProductCard from './../components/ProductCard';
-import {Col, Row, Container} from 'react-bootstrap';
+import { Row, Container} from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
 export default function Catalog() {
