@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf57aabd.css",
-    "main.js": "/static/js/main.337a78cf.js",
-    "static/media/nike_running_shoes.jpg": "/static/media/nike_running_shoes.e515f845e377c38c4c93.jpg",
-    "index.html": "/index.html",
-    "main.cf57aabd.css.map": "/static/css/main.cf57aabd.css.map",
-    "main.337a78cf.js.map": "/static/js/main.337a78cf.js.map"
+    "main.css": "/Ppaws/static/css/main.cf57aabd.css",
+    "main.js": "/Ppaws/static/js/main.796bfd38.js",
+    "static/media/nike_running_shoes.jpg": "/Ppaws/static/media/nike_running_shoes.e515f845e377c38c4c93.jpg",
+    "index.html": "/Ppaws/index.html",
+    "main.cf57aabd.css.map": "/Ppaws/static/css/main.cf57aabd.css.map",
+    "main.796bfd38.js.map": "/Ppaws/static/js/main.796bfd38.js.map"
   },
   "entrypoints": [
     "static/css/main.cf57aabd.css",
-    "static/js/main.337a78cf.js"
+    "static/js/main.796bfd38.js"
   ]
 }
